@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awittia || Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- boxicon css link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+<body>
+    <div class="overlay"></div>
+    <header>
+        <a href="#" class="logo"><span>Aw</span>-An</a>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Halaman</a></li>
+            <li><a href="#portfolio">Sertifikat</a></li>
+            <li><a href="#blog">Portfolio</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+        <div class="right-header">
+            <a href="#contact" class="btn">Ayo chat <i class='bx bx-message-dots' ></i></a>
+            <div class="menu-icon">
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="hero-info">
+            <h3>Selamat Datang!</h3>
+            <h1>Hi, Saya Awittia!</h1>
+            <p> Nama saya Awittia Ananda Oktaviani, kamu bisa panggil saya Awittia.
+                Saat ini, tengah menekuni pendidikan di SMK WIKRAMA BOGOR dengan jurusan PPLG.</p>
+
+            <div class="btn-box">
+                <a href="mailto:awittiananda1026@mail.com" class="btn">Kirim Pesan ! <i class='bx bx-right-arrow-alt' ></i></a>
+                <a href="img/cvawittia.pdf" target="_blank" class="btn d-CV">Unduh CV <i class='bx bx-download'></i></a>
+            </div>
+
+            <div class="social-media">
+                <div class="bg-icon">
+                    <a href="https://www.instagram.com/whostya__/"><i class='bx bxl-instagram'></i></a>
+                    <span></span>
+                </div>
+
+                <div class="bg-icon">
+                    <a href="https://github.com/awitti444"><i class='bx bxl-github'></i></a>
+                    <span></span>
+                </div>
+                <div class="bg-icon">
+                    <a href="https://www.linkedin.com/in/awittia-ananda-744b852a2/"><i class='bx bxl-linkedin'></i></a>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="img-hero">
+            <img src="img/profil.png" alt="">
+            <div class="rotate-text">
+                <div class="text">
+                    <p>I'm Awittia A.O (Pengembangan Perangkat Lunak dan Gim)</p>
+                </div>
+                <span><i></i></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/awitabout.png" alt="" class="aboutHero">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">Perkenalan</h2>
+            <h3>Tentang Saya</h3>
+            <p>Hi, Nama saya Awittia Ananda Oktaviani, kamu bisa panggil saya Awittia. Saya lahir pada bulan Oktober, tepatnya tanggal 10 tahun 2006. 
+                Saat ini, tengah menekuni pendidikan di SMK WIKRAMA BOGOR dengan jurusan PPLG.
+            </p>
+            <div class="cvContent">
+                <a href="img/cvawit.pdf" target="_blank" class="btn d-CV">Unduh CV <i class='bx bx-download'></i></a>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <h2 class="heading">Sertifikat Saya</h2>
+            <span>Yang saya dapatkan</span>
+        </div>
+        <div class="fillter-buttons">
+            <button class="button mixitup-control-active" data-filter="all">Semua Sertifikat</button>
+            <button class="button" data-filter=".web">Dicoding</button>
+            <button class="button" data-filter=".uiux">K3</button>
+        </div>
+
+        <div class="portfolio-gallery">
+            <div class="portfolio-box mix uiux">
+                <div class="portfolio-content">
+                    <h3>K3</h3>
+                    <p>Mengikuti pembahasan tentang K3 dan telah menyelesaikannya .</p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/ser1.png" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>Dicoding</h3>
+                    <p>Mengikuti kelas belajar tentang pemrograman web dan telah menyelesaikannya.</p>
+                    <a href="https://www.dicoding.com/" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/ser2.png" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>Dicoding</h3>
+                    <p>Mengikuti kelas belajar dasar data dan telah menyelesaikannya.</p>
+                    <a href="https://www.dicoding.com/" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/ser3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog" id="blog">
+        <div class="main-text">
+            <h2 class="heading">Projek</h2>
+            <span>Terakhir dan baru di buat</span>
+        </div>
+
+        <div class="blog-box swiper mySwiper">
+            <div class="cards swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/blog/web.png" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Personal Website</h2>
+                        <p class="excerpt">
+                            Personal Website ini salah satu study kasus materi HTML CSS dengan praktik membuat personal web.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/blog/webportfolio.png" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Portfolio Website</h2>
+                        <p class="excerpt">
+                            Projek membuat portfolio website yang berisi beberapa sertifikat dan portfolio. Menggunakan HTML CSS dan JS.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/blog/wk.png" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Wikrama Website</h2>
+                        <p class="excerpt">
+                            Salah satu praktik membuat projek website Wikrama sebagai study kasus saat itu.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/blog/masjidwk.png" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Masjid Website</h2>
+                        <p class="excerpt">
+                            Projek akhir kenaikan kelas, website masjid, dengan menggunakan html css dan php.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/blog/vue.png" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Website Vue</h2>
+                        <p class="excerpt">
+                            Mengikuti kelas industri dengan praktek projek membuat website menggunakan Vue JS.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/blog/buku.png" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Peminjaman Buku</h2>
+                        <p class="excerpt">
+                            Praktik tampilan crud peminjaman buku dengan menggunakan MVC. Telah diselesaikan.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+    </section>
+
+    <section class="down-box" id="contact">
+        <div class="contactSkills">
+            <div class="contact-info">
+                <div class="main-text">
+                    <h2 class="heading">Kontak saya</h2>
+                    <span>Jika anda ingin bertanya dan mengirim pesan.</span>
+                </div>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="#" id="" cols="30" rows="10">
+                    </textarea>
+                    <div class="formBtn">
+                        <button type="submit" class="btn">Kirim pesan</button>
+                    </div>
+                </form>
+            </div>
+
+    <div id="progress">
+        <span id="progress-value">
+            <i class='bx bxs-chevrons-up' ></i>
+        </span>
+    </div>
+
+    <!-- scroll reveal  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- mixitup cdn js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

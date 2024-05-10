@@ -275,21 +275,21 @@ section{
     animation: animate 1s linear infinite;
 }
 
-.img-hero{
+/* .img-hero{
     position: relative;
     animation: floatImage 4s ease-in-out infinite;
     animation-delay: 3s;
-}
+} */
 
-.img-hero img{
+/* .img-hero img{
     position: relative;
     width: 400px;
     height: auto;
     z-index: 10;
     margin-top: 78px;
-}
+} */
 
-.rotate-text{
+/* .rotate-text{
     position: absolute;
     top: 4%;
     left: -53px;
@@ -337,16 +337,16 @@ section{
     border-radius: 50%;
     box-shadow: 0 1px 6px 5.94px rgba(0,0,0,0.2);
     animation: rotateText 30s linear infinite;
-}
+} */
 
-.text b{
+/* .text b{
     position: absolute;
     transform-origin: 0 247px;
     display: block;
     top: 0;
     left: 50%;
     font-size: 1.2rem;
-}
+} */
 
 /* ==================== About section css code ============================ */
 .about{
